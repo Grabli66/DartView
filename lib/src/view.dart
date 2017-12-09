@@ -1,12 +1,15 @@
 import 'child_func.dart';
-import 'element.dart';
+import 'tag.dart';
 
+/// Abstract view for rendering html
 abstract class View {
-  Object layout();    
+  /// Layout view
+  Object layout();
 
+  /// Render view to string
   String render() {
     final lay = layout();
-    if (lay is Element) {
+    if (lay is Tag) {
       return lay.render();
     } else if (lay is ChildFunc) {
       return lay().render();

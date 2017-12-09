@@ -2,3 +2,8 @@ analyzer:
   strong-mode: true
   errors:
     dead_code: error
+
+linter:
+  rules:
+    - camel_case_types
+    - empty_constructor_bodies

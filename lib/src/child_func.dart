@@ -1,6 +1,7 @@
-import 'element.dart';
+import 'tag.dart';
 
-typedef Element ChildFunc(
+/// Function for adding childs
+typedef Tag ChildFunc(
     [Object par1,
     Object par2,
     Object par3,
