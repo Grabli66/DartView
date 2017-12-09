@@ -1,1 +1,9 @@
 name: dart_view
+description: Write html templates with dart
+version: 1.0.0
+author: Grabli66 <grabli66@gmail.com>
+homepage: https://github.com/Grabli66/DartView
+environment:
+  sdk: ">=1.19.0"
+dev_dependencies:
+  test: any
